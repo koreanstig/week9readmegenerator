@@ -62,4 +62,53 @@ inquirer.prompt([{
         name: "email",
         message: "What is your email? "
     }
-])
+]).then(function (answers) { //using the answers from the prompt and temperate literals, I created the code for the readme.md file 
+    const readMe = `
+<h1 align="center">${answers.title}</h1>
+    
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
+
+## Description
+${answers.description}
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+${answers.installation}
+
+## Usage
+${answers.usage}
+
+## License
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+<br />
+Licenced by ${answers.license}. 
+
+## Contributors
+${answers.contributors}
+
+## Tests
+${answers.tests}
+
+## Questions
+${answers.questions}<br />
+<br />
+My Github: [${answers.username}](https://github.com/${answers.username})<br />
+<br />
+My email: ${answers.email}<br /><br />
+This README generator was created by https://github.com/koreanstig!
+Check out the code - https://github.com/koreanstig/week9readmegenerator!
+`
+    fs.writeFile('newreadme.md', readMe, (err) => { //launched a writefile to create the new readme file
+        if (err) {
+            throw err;
+        }
+    });
+});
