@@ -31,4 +31,6 @@ My email: jungdavidlee@gmail.com<br />
 ![Untitled](https://user-images.githubusercontent.com/69485203/109054075-4cc1bc80-7692-11eb-8b59-7888aa557f98.png)
 
 ## Walkthrough
-https://drive.google.com/file/d/1rC6qy_J6YGBrTil4dpf1cNYJR0ckFvIQ/view
+Link to full video - https://drive.google.com/file/d/1rC6qy_J6YGBrTil4dpf1cNYJR0ckFvIQ/view
+
+![Untitled_ Feb 24, 2021 11_43 AM (3)](https://user-images.githubusercontent.com/69485203/109057781-0b7fdb80-7697-11eb-9036-419436e1a342.gif)
