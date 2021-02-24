@@ -10,6 +10,7 @@ Using the inquirer npm, I will create an application that will create a README f
 - [Contributors](#contributors)
 - [Questions](#questions)
 - [Sample](#sample)
+- [Walkthrough](#walkthrough)
 
 ## Installation
 - Clone this repo
@@ -28,3 +29,6 @@ My email: jungdavidlee@gmail.com<br />
 
 ## Sample
 ![Untitled](https://user-images.githubusercontent.com/69485203/109054075-4cc1bc80-7692-11eb-8b59-7888aa557f98.png)
+
+## Walkthrough
+https://drive.google.com/file/d/1rC6qy_J6YGBrTil4dpf1cNYJR0ckFvIQ/view

@@ -100,10 +100,10 @@ ${answers.tests}
 ## Questions
 ${answers.questions}<br />
 <br />
-My Github: [${answers.username}](https://github.com/${answers.username})<br />
+My Github: [${answers.username}](https://github.com/${answers.username})
 <br />
 My email: ${answers.email}<br /><br />
-This README generator was created by https://github.com/koreanstig!
+This README generator was created by https://github.com/koreanstig!<br />
 Check out the code - https://github.com/koreanstig/week9readmegenerator!
 `
     fs.writeFile('newreadme.md', readMe, (err) => { //launched a writefile to create the new readme file
