@@ -1,0 +1,22 @@
+{
+  "name": "week9readmegenerator",
+  "version": "1.0.0",
+  "description": "Readme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koreanstig/week9readmegenerator.git"
+  },
+  "author": "David Jung Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koreanstig/week9readmegenerator/issues"
+  },
+  "homepage": "https://github.com/koreanstig/week9readmegenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
